@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000;
+    background-image: url('logo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8); /* Adding a semi-transparent background to container for better readability */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.level {
+    margin: 10px 0;
+}
+
+.revealButton {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #444;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.revealButton:hover {
+    background-color: #555;
+}
+
+#ketua, #wakil, #sekretaris, #bendahara {
+    margin-top: 10px;
+    font-size: 20px;
+    list-style: none;
+    padding: 0;
+}
+
+.hidden {
+    display: none;
+}
